@@ -7,7 +7,7 @@ function App() {
       <Header />
       <Router />
     </>
-    );
+  );
   }
   
   export default App;

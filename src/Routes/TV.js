@@ -1,2 +1,2 @@
-const tv = () => "TV";
+const tv = () => 'TV';
 export default tv;

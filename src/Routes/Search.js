@@ -1,2 +1,2 @@
-const search = () => "Search";
+const search = () => 'Search';
 export default search;

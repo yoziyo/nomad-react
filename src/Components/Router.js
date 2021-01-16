@@ -15,7 +15,7 @@ const router = () => {
         <Redirect from="*" to="/" />
       </Switch>
     </Router>
-  )
+  );
 }
 
 export default router;

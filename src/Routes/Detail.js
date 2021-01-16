@@ -1,2 +1,2 @@
-const detail = () => "Detail";
+const detail = () => 'Detail';
 export default detail;
