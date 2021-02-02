@@ -14,5 +14,6 @@
 - [x] Top Rated (TV)
 - [x] Popular (TV)
 - [x] Airing Today (TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
+- [x] TV Show Detail
+- [x] Movie Detail
+- [x] Search (Movie, TV)
