@@ -27,7 +27,7 @@ export default class HomeContainer extends React.Component {
 
       this.setState({ nowPlaying, upcoming, popular });
     } catch {
-      this.setState({ error: "Can't find movies informations." });
+      this.setState({ error: "Can't find movie informations." });
     } finally {
       this.setState({ loading: false });
     }
