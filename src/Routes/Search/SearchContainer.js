@@ -31,11 +31,11 @@ export default class SearchContainer extends React.Component {
     this.setState({ loading: true });
     try {
       const {
-        data: { result: movieResult },
+        data: { results: movieResult },
       } = await moviesApi.search(searchTerm);
 
       const {
-        data: { result: tvResult },
+        data: { results: tvResult },
       } = await tvApi.search(searchTerm);
 
       this.setState({ movieResult, tvResult });
