@@ -5,6 +5,7 @@ import Loader from 'Components/Loader';
 import Section from 'Components/Section';
 import Message from 'Components/Message';
 import Poster from 'Components/Poster';
+import { Helmet } from 'react-helmet-async';
 
 const Container = styled.div`
   padding: 20px;
@@ -23,6 +24,9 @@ const Input = styled.input`
 
 const SearchPresenter = ({ movieResult, tvResult, searchTerm, error, loading, handleSubmit, updateTerm }) => (
   <Container>
+    <Helmet>
+      <title>Search | Nomflix</title>
+    </Helmet>
     <Form onSubmit={handleSubmit}>
       <Input placeholder="Search Movies or TV Show..." value={searchTerm} onChange={updateTerm}></Input>
     </Form>

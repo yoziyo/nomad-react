@@ -5,6 +5,7 @@ import Section from 'Components/Section';
 import Loader from 'Components/Loader';
 import Message from 'Components/Message';
 import Poster from 'Components/Poster';
+import { Helmet } from 'react-helmet-async';
 
 const Container = styled.div`
   padding: 20px;
@@ -15,6 +16,9 @@ const TVPresenter = ({ topRated, popular, airingToday, error, loading }) =>
     <Loader />
   ) : (
     <Container>
+      <Helmet>
+        <title>TV Shows | Nomflix</title>
+      </Helmet>
       {topRated && topRated.length > 0 && (
         <Section title="Top Rated Shows">
           {topRated.map((show) => (
