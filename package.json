@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://yoziyo.github.io/nomad-react",
+  "homepage": "https://happy-bose-e7f76c.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",

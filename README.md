@@ -17,3 +17,7 @@
 - [x] TV Show Detail
 - [x] Movie Detail
 - [x] Search (Movie, TV)
+
+# Preview:
+
+Try it on [netlify](https://happy-bose-e7f76c.netlify.app/)
